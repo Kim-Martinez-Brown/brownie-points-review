@@ -239,3 +239,31 @@ a:hover span{
 	width: 80px;
 	font-size: 90%;color:#000000;	
 }
+
+.sushipic{
+	width: 300px;
+	transform: rotate(90deg);	
+}
+
+.izumi{
+	background-color: rgb(20, 193, 200, .6);
+	margin: auto;
+  	width: 75%;
+  	padding: 10px;
+	height:100vh;
+	font-size: 20px;
+	text-align: center;	
+}
+
+.pizza{
+	width: 300px;
+}
+.mod{
+	background-color: rgb(254, 217, 25, .6);
+	margin: auto;
+  	width: 75%;
+  	padding: 10px;
+	height:100vh;
+	font-size: 20px;
+	text-align: center;	
+}
