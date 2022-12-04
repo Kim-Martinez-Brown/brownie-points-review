@@ -3,13 +3,18 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="main.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
 
 <title>index</title>
 </head>
 
 <body>
+	<nav>
 	<div class="topnav">
 		<ul class="topnav">
+			<img src="resources/logo.png" alt text="logo" height="50px">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="#restaurant">Restaurant Reviews</a></li>
 			<li><a href="recipes.html">Recipes</a></li>
@@ -17,27 +22,43 @@
 			<li><a href="contact-us.html">Contact Us</a></li>
 		</ul>
 	</div>
-	
+	</nav>
 	<br>
 	
 	<div id="container">
-			<article>
-				<video width="1000" height="800" autoplay muted>
+			<article class="video">
+				<video width="1000" height="800" controls>
  				<source src="resources/brownie-points-intro_1.mp4" type="video/mp4">
+				<source src="resources/brownie-points-intro_1.ogg" type="video/ogg">
 				</video>
 			</article>
-
-	<section id="main">
+<br>
+	<section class="main">
 			<div class="rating">
 				<h1>Rating System</h1>
 				<h2>We follow the standard five stars rating scale</h2>
-					<ul class= "rating">
-						<h3>Poor:</h3><img src="resources/star.png" alt="One Star">
-						<h3>Below Average:</h3><img src="resources/star.png" alt="One Star"><img src="resources/star.png" alt="Two Stars">
-						<h3>Average:</h3><img src="resources/star.png" alt="One Star"><img src="resources/star.png" alt="Two Stars"><img src="resources/star.png" alt="Three Stars">
-						<h3>Above Average:</h3><img src="resources/star.png" alt="One Star"><img src="resources/star.png" alt="Two Stars"><img src="resources/star.png" alt="Three Stars"><img src="resources/star.png" alt="Four Stars">
-						<h3>Excellent:</h3><img src="resources/star.png" alt="One Star"><img src="resources/star.png" alt="Two Stars"><img src="resources/star.png" alt="Three Stars"><img src="resources/star.png" alt="Four Stars"><img src="resources/star.png" alt="Five Stars">
-					</ul>
+					<ul class="ratestar">
+						
+						
+					<h3>Poor:</h3>
+						<img src="resources/star.png" alt="One Star" class= "stars">
+					
+						<h3>Below Average:</h3><img src="resources/star.png" alt="One Star" class= "stars"><img src="resources/star.png" alt="Two Stars" class= "stars">
+						
+						<h3>Average:</h3>
+						
+						<img src="resources/star.png" alt="One Star" class= "stars"><img src="resources/star.png" alt="Two Stars" class= "stars"><img src="resources/star.png" alt="Three Stars" class= "stars">
+							
+						<h3>Above Average:</h3>
+						
+						
+						<img src="resources/star.png" alt="One Star" class= "stars"><img src="resources/star.png" alt="Two Stars" class= "stars"><img src="resources/star.png" alt="Three Stars" class= "stars"><img src="resources/star.png" alt="Four Stars" class= "stars">
+							
+						<h3>Excellent:</h3>
+	
+						<img src="resources/star.png" alt="One Star" class= "stars"><img src="resources/star.png" alt="Two Stars" class= "stars"><img src="resources/star.png" alt="Three Stars" class= "stars"><img src="resources/star.png" alt="Four Stars" class= "stars"><img src="resources/star.png" alt="Five Stars" class= "stars">
+						</ul>
+						
 			
 		</div>
 			<div class="criteria">

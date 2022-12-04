@@ -12,26 +12,40 @@ body{
 
 
 h1{
-	font-family: 'Share Tech Mono', monospace;
+	font-family: 'Neon Vortex';
 	color:#FFFFFF;
-	font-size: 50px;
+	
+}
+
+h2{
+	font-family: 'Cookie', cursive;
 }
 
 h3{
-color: white;
-  font-family: 'Roboto', sans-serif;
-	font-size: 20px;
-	font-stretch: expanded;
+	color: white;
+  	font-family: 'Roboto', sans-serif; 
 }
 
-	
+#logo{
+	display:flex;
+	flex-direction: row;
+}	
+
+ul img {
+   height:75px;
+   float:left;
+}
+
 .topnav {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin:0;
   overflow: hidden;
   background-color: #FF319A;
-}
+  align-content: center;
+  align-items: center;
+  alignment-baseline: center;
+	padding: 5px;	
+}	
 
 li {
   float: left;
@@ -42,9 +56,9 @@ li a {
   color: white;
   font-family:"Neon Vortex";
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 20px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 li a:hover {
@@ -52,24 +66,176 @@ li a:hover {
 }
 
 #container{
-	background-image: url("resources/foodtruck.jpg");
-	align-content: center;
-	display: flex;
+	background-image:url("resources/background1.png");
+	background-repeat: repeat-y;
+	background-attachment:scroll;
+	background-position: center;
+	align-items: center;
+	align-self: center;
+	justify-content: center;
+	overflow-x: none;
+
+}
+.video{
+	display:flex;
+	justify-content: center;
+	
 	
 }
 
-#main{
-	display:flex;
-	flex-direction: row;
- 	justify-content:space-around;
-  	align-items:flex-start;
-	background:rgba( 254, 217, 25, .2);
-	margin-top: 30px;
+.main{
+	display: flex;
+ 	justify-content:center;
+	flex-flow: row;
+	flex-basis: auto;
+	align-content: center;
+	align-self: center;
+	font-size-adjust: auto;
+	font-size: 15px;
+	text-align: center;
+	flex-wrap: wrap;
+	}
+
+.rating{
+	margin-left: 30px;
+	background:rgba( 252, 1, 167, 1);
+	flex-direction: column;
+	flex:1;
+	max-width:25%;
+	}
+.ratestar{
+	text-align: left;
+	
+	
+	
 }
-
-
-img{
-	height:20px;
+.stars{
 	width: 20px;
+	height: 20px;
+	float: inherit;
+	
+	
+	
+	}
+
+.criteria{
+	margin-right: 30px;
+	margin-left: 30px;
+	background:rgba( 252, 1, 167, 1);
+	flex-direction: column;
+	justify-content:center;
+	flex:1;
+	max-width:25%;
+	}
+
+.recommend{
+	margin-right: 30px;
+	background:rgba( 252, 1, 167, 1);
+	flex:1;
+	flex-direction: column;
+	word-wrap: normal;
+	max-width:25%;
+	padding-right:20px;
+	padding-left: 20px;
+}
+	
+.professionals{
+	height:300px;
+	float:left;
+	align-content: center;
+	margin-right: 30px;
+}
+.background-main{
+	background-color: rgb(20, 193, 200, .6);
+	margin: auto;
+  	width: 50%;
+  	padding: 10px;
+	height:100vh;
 }
 
+textarea{
+	max-width: 50%;
+}
+label{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+
+}
+#main{
+	background-color: rgb(255, 1, 167, .6);
+	float: right;
+	
+}
+
+.background-main2{
+	background-color: rgb(255, 1, 167, .8);
+	margin: auto;
+  	width: 75%;
+  	padding: 10px;
+	height:100vh;
+	font-size: 30px;
+	text-align: center;	
+}
+.sushiboat{
+	float:center;
+	height: 400px;
+	padding: 0 20% 0 20%;
+}
+
+#food-container{
+	background-image:url("resources/foodtruck.png");
+	background-repeat: repeat-y;
+	background-attachment:scroll;
+	background-position: center;
+	align-items: center;
+	align-self: center;
+	justify-content: center;
+	overflow-x: none;
+	padding: 0, 20%, 0, 20%;
+	min-height: inherit;
+}
+
+
+.brie{
+	width: 300px;
+}
+
+.bbq{
+	width: 300px;
+}
+
+.casserole{
+	width: 300px;
+}
+
+.appetizers{
+	background:rgba( 254, 217, 25, .6);
+	text-align: center;
+	
+	
+}
+.meals{
+	background:rgba(20, 193, 200, .6);
+	text-align:center;
+	
+}
+
+.Desserts{
+	background: rgba( 255, 1, 167, .6);
+	text-align:center;
+	
+}
+
+a span{
+	display:none;
+}
+
+a:hover span{
+	display:block;
+	background-color:#FFFFFF;
+	border: 1px solid #000000;
+	top: 15px;
+	right:-20px;
+	width: 80px;
+	font-size: 90%;color:#000000;	
+}
